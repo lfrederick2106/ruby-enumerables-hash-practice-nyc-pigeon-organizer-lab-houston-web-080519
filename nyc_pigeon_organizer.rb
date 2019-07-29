@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
   
-  pigeon_list = Hash[data.collect { |item| [item, ""] } ]
+  pigeon_list = Hash[names.collect { |item| [item, ""] } ]
   
 end
