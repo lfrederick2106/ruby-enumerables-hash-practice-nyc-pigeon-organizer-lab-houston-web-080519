@@ -1,3 +1,4 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  h = Hash.new{|hsh,key| hsh[key] = {} }
+  h["names"] << "color" << "gender" << "lives"
 end
