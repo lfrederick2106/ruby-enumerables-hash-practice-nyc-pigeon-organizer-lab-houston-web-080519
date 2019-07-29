@@ -35,7 +35,7 @@ describe "NYC Pigeon Organizer" do
         expect(@result.keys.length).to eq(7)
       end
       it 'has the keys Theo, Peter Jr., Lucky, Ms. K, Queenie, Andrew, and Alex' do
-        names = ["Theo", "Peter Jr.", "Lucky", "Ms. K", "Queenie", "Andrew", "Alex"]
+         = ["Theo", "Peter Jr.", "Lucky", "Ms. K", "Queenie", "Andrew", "Alex"]names
         names.each { |n| expect(@result.keys).to include(n) }
       end
     end
