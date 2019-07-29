@@ -6,6 +6,6 @@ def nyc_pigeon_organizer(data)
     puts v
   end
   
-  pigeon_list.sort_by { |hsh| hsh[:zip] }
+  data.sort_by { |hsh| hsh[:zip] }
   
 end
