@@ -8,5 +8,3 @@ def nyc_pigeon_organizer(data)
     puts v
   end
 end
-  
-end
