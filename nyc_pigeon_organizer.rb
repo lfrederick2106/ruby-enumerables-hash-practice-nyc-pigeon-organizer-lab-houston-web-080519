@@ -1,5 +1,3 @@
-names = ["Theo", "Peter Jr.", "Lucky", "Ms. K", "Queenie", "Andrew", "Alex"]
-
 def nyc_pigeon_organizer(data)
-  pigeon_data.each do 
+  pigeon_data..sort_by { |k, v| v[names] }
 end
