@@ -1,4 +1,9 @@
 def nyc_pigeon_organizer(data)
-  h = Hash.new{|hsh,key| hsh[key] = {} }
-  h["names"] << "color" << "gender" << "lives"
+  h.each do |key, value|
+  puts key
+  value.each do |k,v|
+    puts k
+    puts v
+  end
+end
 end
